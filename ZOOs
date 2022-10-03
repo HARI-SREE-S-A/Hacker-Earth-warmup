@@ -1,0 +1,9 @@
+name = input()                
+   
+z_count = name.count('z')
+o_count = name.count('o')
+
+if o_count == 2*(z_count) and len(name)<=20:
+    print("Yes")
+else:
+    print("No")
