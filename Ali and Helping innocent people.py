@@ -6,7 +6,7 @@ if n[2] not in vow:
         if (int(n[0]) + int(n[1]))%2 == 0  and (int(n[3]) + int(n[4]))%2 == 0 and (int(n[4]) + int(n[5]))%2 == 0 and (int(n[7]) + int(n[8]))%2 == 0 :
             print(True)
         else:
-            print("False1")
+            print("valid")
     else:
         print("False2")
 else:
