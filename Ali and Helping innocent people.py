@@ -10,5 +10,5 @@ if n[2] not in vow:
     else:
         print("invalid")
 else:
-    print("False3")
+    print("invalid")
 
