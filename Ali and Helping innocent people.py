@@ -8,7 +8,7 @@ if n[2] not in vow:
         else:
             print("valid")
     else:
-        print("False2")
+        print("invalid")
 else:
     print("False3")
 
