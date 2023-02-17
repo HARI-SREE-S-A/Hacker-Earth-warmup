@@ -6,7 +6,6 @@ if rmapp[n] % 2 == 0:
     print(p)
 else:
     print("7"+"1"*((rmapp[n]//2)-1))
-  
 
     
     ###test case of  2 is not working in hackerearth
