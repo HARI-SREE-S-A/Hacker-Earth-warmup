@@ -10,6 +10,5 @@ else:
 
 
 
-
     
     ###test case of  2 is not working in hackerearth
