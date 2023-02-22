@@ -1,5 +1,6 @@
 def solve (S, k):
-    S.count(k)
+    b = S.count(k)
+    return b
     pass
 
 T = int(input())
