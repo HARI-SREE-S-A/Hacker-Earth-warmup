@@ -4,8 +4,7 @@ start = int(input())
 finish = int(input())
 charges =[int(x) for x in input().split()]
 circle = list(range(1,station+1))
-journey = list(range(start,finish))
-length  = len(journey)
+
 count = []
 countt = []
 index_strt = circle.index(start)
