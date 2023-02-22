@@ -14,4 +14,12 @@ for i in range(T):
         x = x+1
         
     print(x)
-
+#####################################################################################
+ = int(input())
+for i in range(t):
+    n,m,k = map(int, input().split()) 
+    if (n % k) != 0:
+        n += k - (n%k)
+    if (m % k) != 0:
+        m += k - (m%k)
+    print((n//k) + (m//k))
