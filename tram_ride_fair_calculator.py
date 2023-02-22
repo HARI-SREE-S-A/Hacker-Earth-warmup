@@ -28,6 +28,6 @@ for j in range(0,len(circle)+1):
         f -= 1
 a,b = sum(count),sum(countt)
 
-#print(countt)
+
 print(min(a,b))
 
