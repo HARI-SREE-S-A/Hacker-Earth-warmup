@@ -26,6 +26,9 @@ for j in range(0,len(circle)+1):
         
         countt.append(charges[f-1])
         f -= 1
+        
+        
+        
 a,b = sum(count),sum(countt)
 
 
