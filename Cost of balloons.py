@@ -6,6 +6,8 @@ test = int(input())
 for _ in range(test):
     
     
+    
+    
     prices = [int(y) for y in input().split()]
     n_ts = int(input())
     for k in range(n_ts):
