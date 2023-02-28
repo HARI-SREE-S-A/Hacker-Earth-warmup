@@ -7,7 +7,7 @@ for _ in range(N):
 
 for k in range(N):
     b = dictn[k]
-    #print(b)
+   
     if b[0] or b[1] < L:
         print(b[0],b[1])
         print("UPLOAD ANOTHER")
