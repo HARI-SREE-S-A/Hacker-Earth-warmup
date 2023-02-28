@@ -4,7 +4,7 @@ dictn = {}
 
 for _ in range(N):
     dictn[_]  = [int(x) for x in input().split()]
-#print(dictn)
+
 for k in range(N):
     b = dictn[k]
     #print(b)
