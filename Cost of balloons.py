@@ -4,6 +4,7 @@ l = []
 prices = []
 test = int(input())
 
+
 for _ in range(test):
     
        
