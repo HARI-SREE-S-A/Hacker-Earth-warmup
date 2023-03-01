@@ -9,14 +9,15 @@ for _ in range(test):
     test = int(input())
     
        
-    prices = [int(y) for y in input().split()]
+    prices = [int(y) for y in input().split()] ## getting the prices of each balloon
+    
     n_ts = int(input())
     for k in range(n_ts):
         dictn[k] = [int(x) for x in input().split()]
 
     for p in range(1):
         for b in range(n_ts):
-            a.append(dictn[b][p])
+            a.append(dictn[b][p]) ### splitting the elements a column or a question
     r = 1
     for c in range(n_ts):
         l.append(dictn[c][r])
