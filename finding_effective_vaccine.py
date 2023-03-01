@@ -1,22 +1,21 @@
 dictn = {}
-vi = list("AAGCCU")
+
+test = int(input("number of vaccines"))
+lenn_virus = int(input("length"))
+vi = list(input("virus"))
 
 
-va = list("BBGCUU")
-vb = "CCGGUU"
-vil =[1]*2
-val = [1]*2
-vbl = [1]*2
+
 
 virus_list = (vi.count("C"))* "C" + (vi.count("G") * ("G" ))
 virus_list = list(virus_list)
 
-for b in range(2):
+for b in range(test):
     virus_listss = (vi.count("C"))* "C" + (vi.count("G") * ("G" ))
     virus_lists  = list(virus_listss)
     
-    
-    va = [str(x) for x in input()]
+    j = int(input("length"))
+    va = [str(x) for x in input("vaccines ")]
     for n in va:
        
         if n == "C" and "C" in virus_lists:
@@ -31,8 +30,9 @@ for b in range(2):
 
 
    
-print(dictn)
+#print(dictn)
 nl = [1]*2
-for k in range(2):
+for k in range(test):
     nl[k] = dictn[k]
 print( ( nl.index(max(nl)) )+1 )
+
