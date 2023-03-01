@@ -1,11 +1,12 @@
-ictn = {}
-a = []
-l = []
-prices = []
+
+
 test = int(input())
-
-
 for _ in range(test):
+    dictn = {}
+    a = []
+    l = []
+    prices = []
+    test = int(input())
     
        
     prices = [int(y) for y in input().split()]
