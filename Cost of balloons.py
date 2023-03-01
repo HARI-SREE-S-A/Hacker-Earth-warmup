@@ -17,15 +17,20 @@ for _ in range(test):
 
     for p in range(1):
         for b in range(n_ts):
-            a.append(dictn[b][p]) ### splitting the elements a column or a question
+            a.append(dictn[b][p]) ### splitting the elements a column or "a" question scores 
     r = 1
     for c in range(n_ts):
-        l.append(dictn[c][r])
-    a_c = a.count(1)
-    b_c = l.count(1)
-    C_ab = min(a_c,b_c) * max(prices[0],prices[1])
-    C_bb = max(a_c,b_c) * min(prices[0],prices[1])
+        l.append(dictn[c][r]) ### splitting the elements b column or "b" question scores
+    
+    
+    a_c = a.count(1) # counting the scores of  "a" question 
+    
+    b_c = l.count(1) # counting scores of "b" question
+    
+    
+    C_ab = min(a_c,b_c) * max(prices[0],prices[1]) # finding optimal cost of "a" balloon
+    
+    C_bb = max(a_c,b_c) * min(prices[0],prices[1]) # finding optimal cost of "b" balloon
    
     print(C_ab + C_bb )
-
 
