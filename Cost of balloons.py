@@ -22,8 +22,9 @@ for _ in range(test):
         l.append(dictn[c][r])
     a_c = a.count(1)
     b_c = l.count(1)
+    C_ab = min(a_c,b_c) * max(prices[0],prices[1])
+    C_bb = max(a_c,b_c) * min(prices[0],prices[1])
    
-    
-    print()
+    print(C_ab + C_bb )
 
 
