@@ -21,8 +21,8 @@ for _ in range(test):
         l.append(dictn[c][r])
     a_c = a.count(1)
     b_c = l.count(1)
-    t_c = max(a_c,b_c)
-    opt_cost = min(prices)
-    print(t_c * opt_cost)
+   
+    
+    print()
 
 
