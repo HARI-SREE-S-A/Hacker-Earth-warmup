@@ -9,6 +9,7 @@ c =int("".join([str(i) for i in l]))
 
 
 
+
 if c%10 == 0:
   return(True)
 else:
