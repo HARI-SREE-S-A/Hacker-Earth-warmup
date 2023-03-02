@@ -3,7 +3,6 @@ data = [int(x) for x in input().split()]
 l = []
 
 
-
 for i,n in enumerate(nums):
   l.append(n%19)
 c =int("".join([str(i) for i in l]))
