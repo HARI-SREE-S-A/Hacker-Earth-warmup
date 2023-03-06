@@ -1,16 +1,19 @@
+c = [int(y) for y in input().split()]
+j = c[1]
+per = [int(z) for z in input().split()]
 
-per = [2 ,3 ,1 ,5 ,4]
 
-k = [1,3]
-
-l = []
-
-for i in range(1,3):
-    try:
-        l.append(per[i])
-    except IndexError:
-        None
-l
-
+for _ in range(j):
+    
+    p = per
+    
+    k = [int(x) for x in input().split()]
+    
+    for i in range(k[0],k[1]):
+        try:
+            p.remove(per[i])
+        except IndexError:
+            None
+    print(max(p))
         
     
