@@ -6,6 +6,7 @@ for i in range(T):
     if iN[0]%iN[2] != 0:
         N += 0.5
         
+        
     M = ((iN[1])/iN[2])
     if iN[1]%iN[2] != 0:
         M += 0.5
