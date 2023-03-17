@@ -1,7 +1,7 @@
 N = int(input())
 data = [int(x) for x in input().split()]
 l = []
-
+d
 
 
 for i,n in enumerate(nums):
