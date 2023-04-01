@@ -2,8 +2,6 @@ c = [int(y) for y in input().split()]
 j = c[1]
 per = [int(z) for z in input().split()]
 
-
-
 l = []
 b  = per
 for _ in range(j):
